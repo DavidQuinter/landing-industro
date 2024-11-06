@@ -1,0 +1,43 @@
+body, html{
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    height: 100vh;
+    width: 100wh;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+#body{
+    height: 100vh;
+    background-image: url('./public/img/img-bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.4) contrast(1.2);
+}
+.message-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+figure{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+figure img{
+    width: 75%;
+}
+.caption{
+    background-color: #174D46;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 0 0 5px 5px;
+}
